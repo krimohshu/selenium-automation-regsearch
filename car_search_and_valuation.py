@@ -10,17 +10,17 @@ from selenium.webdriver.chrome.options import Options
 
 # File Configurations
 # FILE 1&2: Input and output file given as specification
-INPUT_FILE = "car_input - V5.txt"
-OUTPUT_FILE = "car_output - V5.txt"
+INPUT_FILE = "data/car_input - V5.txt"
+OUTPUT_FILE = "data/car_output - V5.txt"
 
 # FILE 3: This is runtime file to store what data has been searched
-SEARCH_RESULT_OUTPUT_FILE = "car_output_during_search.txt"
+SEARCH_RESULT_OUTPUT_FILE = "data/car_output_during_search.txt"
 # FILE 4: this is data that search result not found during run time
-Error_FILE = "car_search_reg_not_found.txt"
+Error_FILE = "data/car_search_reg_not_found.txt"
 # FILE 5: this is the data that mismatch from runtime data and pre-exist car_output - V5.txt file.
 UNVERIFIED_DATA = "unverified_data.txt"
 # FILE 6: This is missing data that outfile have but run time there was not search made for those cars.
-SEPERATE_FILE_WITH_MISSED_ROW = "missing_data.txt"
+SEPERATE_FILE_WITH_MISSED_ROW = "data/missing_data.txt"
 
 URL = "https://motorway.co.uk/"
 
